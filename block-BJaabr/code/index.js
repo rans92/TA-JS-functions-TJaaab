@@ -65,7 +65,7 @@ addOne(54);
 let returnAddValue = addOne(19);
 
 // - What is the typeof returnValue
-typeof returnAddValue ; 
+typeof returnAddValue ; // "number"
 
 /* 2. Subtract one
 
@@ -99,7 +99,7 @@ substractOne(58);
 let returnSubtractValue = substractOne(30);
 
 // - What is the typeof returnValue
-typeof returnSubtractValue;
+typeof returnSubtractValue; // "number"
 
 /* 3. Add two numbers
 
@@ -134,7 +134,7 @@ sum(45, 54);
 let returnSumValue = sum(12, 69);
 
 // - What is the typeof returnValue
-typeof returnSumValue;
+typeof returnSumValue; // "number"
 
 /* 4. Square of the given value
 
@@ -168,7 +168,7 @@ square(4);
 let returnSquareValue = square(12);
 
 // - What is the typeof returnValue
-typeof returnSquareValue;
+typeof returnSquareValue; // "Number"
 
 /* 5. Find isGreater
 
@@ -213,7 +213,8 @@ isGreater(45,89);
 let returnIsGreaterValue = isGreater(65,22);
 
 // - What is the typeof returnValue
-typeof returnIsGreaterValue;
+typeof returnIsGreaterValue; //  boolean
+
 /* 6.
 
 Write a function named `oddOrEven` that accepts a`number` and returns
@@ -271,4 +272,4 @@ oddOrEven(968557);
 let returnOddOrEvenValue = oddOrEven(7698);
 
 // - What is the typeof returnValue
-typeof returnOddOrEvenValue;
+typeof returnOddOrEvenValue; // "string"
